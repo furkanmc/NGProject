@@ -1,6 +1,4 @@
 package techproed.utilities;
-import org.testng.annotations.Test;
-
 import java.io.FileInputStream;
 import java.util.Properties;
 public class ConfigurationReader {
