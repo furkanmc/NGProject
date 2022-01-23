@@ -7,9 +7,8 @@ import java.time.Duration;
 public class Driver {
     /*
     What is Driver ? = Create and initialize the driver instance
-    Why ? => Reusability. Avaid duplication
+    Why ? => Reusability. Avoid duplication
     Faster development
-     *
      */
     private static WebDriver driver;
     private Driver(){
@@ -23,5 +22,12 @@ public class Driver {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
         return driver;
+    }
+    //    closeDriver is used for closing teh driver
+    public static void closeDriver(){
+        if (driver!=null){
+            driver.quit();
+            driver=null;
+        }
     }
 }
