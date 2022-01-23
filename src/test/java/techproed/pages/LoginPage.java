@@ -2,7 +2,6 @@ package techproed.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import techproed.utilities.ConfigurationReader;
 import techproed.utilities.Driver;
 public class LoginPage {
     //    Find the page object in this class
@@ -24,6 +23,8 @@ public class LoginPage {
     public WebElement password;
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement loginButton;
+    @FindBy(xpath = "//span[.='Sign out']")
+    public WebElement signOut;
     //    Creating a reusable login method
 //    I will call this in the test classes to login
     public void loginApplication(String userName, String pass){

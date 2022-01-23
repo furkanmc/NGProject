@@ -4,6 +4,9 @@ import techproed.pages.LoginPage;
 import techproed.utilities.ConfigurationReader;
 import techproed.utilities.Driver;
 public class Day13_PositiveLogin {
+   // testing important critical functionalities of the application
+//   1.
+
     LoginPage loginPage = new LoginPage();
     @Test
     public void login(){
