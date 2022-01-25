@@ -45,6 +45,7 @@ public class Driver {
         driver.manage().window().maximize();
         return driver;
     }
+
     //    closeDriver is used for closing teh driver
     public static void closeDriver(){
         if (driver!=null){//if driver id POINTING SOMEWHHERE such as chromedriver

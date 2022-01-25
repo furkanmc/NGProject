@@ -60,5 +60,6 @@ public class JSUtils {
     public static void executeJScommand(String command) {
         JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
         jse.executeScript(command);
+
     }
 }

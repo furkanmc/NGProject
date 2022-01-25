@@ -148,6 +148,7 @@ public class ReusableMethods {
                 element.click();
             }
         }
+
     }
     /**
      * Selects a random value from a dropdown list and returns the selected Web Element
