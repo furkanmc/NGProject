@@ -48,4 +48,5 @@ public class CreateCustomerPage {
     public WebElement backButton;
     @FindBy(id="save-entity")
     public WebElement saveButton;
+
 }

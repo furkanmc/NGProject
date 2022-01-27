@@ -16,5 +16,4 @@ public class EmployeeDefaultPage {
 
     @FindBy(xpath = "//span[.='Manage Customers']")
     public WebElement manageCustomers;
-
 }

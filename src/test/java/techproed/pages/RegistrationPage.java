@@ -15,7 +15,4 @@ public class RegistrationPage {
     //public WebElement ssn;
     @FindBy(id = "ssn")
     public WebElement ssn;
-
-
-
 }
