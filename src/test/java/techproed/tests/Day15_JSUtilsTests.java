@@ -1,4 +1,4 @@
-package techproed.tests.smoketest;
+package techproed.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

@@ -22,10 +22,12 @@ public class Day15_LoginTest {
     //    Create a List of Map of String to store the username-password list
     List<Map<String,String>> testData;
     //    {{user1,pass1}, {user2,pass2},{user3,pass3},...}
-    LoginPage loginPage = new LoginPage();
-    EmployeeDefaultPage employeeDefaultPage=new EmployeeDefaultPage();
+    LoginPage loginPage;
+    EmployeeDefaultPage employeeDefaultPage;
     public void logIn() throws InterruptedException {
         Driver.getDriver().get(ConfigurationReader.getProperty("gmi_login_url"));
+        loginPage = new LoginPage();
+        employeeDefaultPage = new EmployeeDefaultPage();
         Thread.sleep(1000);
         loginPage.loginDropdown.click();
         Thread.sleep(1000);

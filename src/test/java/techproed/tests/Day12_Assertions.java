@@ -7,7 +7,7 @@ public class Day12_Assertions {
     public void hardAssert(){
 //        import org.testng.Assert;  Hard assertion
         System.out.println("This is line 8");
-        Assert.assertEquals(4,5);//fail
+        Assert.assertEquals(5,5);//fail
         System.out.println("This is line 11");// Hard assert fails, next lines will not run
     }
     @Test
