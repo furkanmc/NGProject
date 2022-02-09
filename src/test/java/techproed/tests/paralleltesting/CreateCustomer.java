@@ -43,6 +43,7 @@ public class CreateCustomer {
         driver.findElement(By.id("save-entity")).click();
         driver.quit();
 
+
     }
 
 }

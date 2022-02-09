@@ -60,6 +60,7 @@ public class DataProviderLogin {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
         ReusableMethods.waitFor(1);
         driver.quit();
+
     }
 
 }

@@ -24,6 +24,7 @@ public class SearchItem {
         driver.findElement(By.id("L2AGLb")).click();
         driver.findElement(By.name("q")).sendKeys("porcelain teapot"+ Keys.ENTER);
         driver.quit();
+
     }
     @Test
     public void ebaySearch(){
